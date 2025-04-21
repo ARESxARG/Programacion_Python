@@ -1,0 +1,22 @@
+Términos Adicionales a la Licencia Creative Commons BY-NC-SA 4.0
+
+Este proyecto está licenciado bajo la Licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0), con las siguientes modificaciones:
+
+1. **Uso Comercial:**
+   Queda expresamente prohibido el uso comercial del código o de cualquier parte de la obra sin autorización previa y por escrito del autor, **Alejo Ortiz**. 
+   
+   El uso comercial incluye, pero no se limita a, la redistribución de la obra con fines de lucro, la integración en productos comerciales o el uso dentro de servicios pagos.
+
+2. **Atribución:**
+   En cualquier uso, distribución o modificación de la obra, **siempre debe mencionarse al autor original**: **Alejo Ortiz**. El reconocimiento debe ser claro, visible y de forma que no implique que el autor aprueba o respalda los usos derivados.
+
+3. **Modificaciones y Compartir Igual:**
+   Si modificas la obra, debes distribuirla bajo los mismos términos de esta licencia, **o con la misma prohibición de uso comercial**. Cualquier modificación debe incluir una declaración explícita de que la obra ha sido cambiada.
+
+4. **Responsabilidad:**
+   La obra se proporciona "tal cual" y no incluye garantías de ningún tipo. El autor no se hace responsable por daños derivados del uso de la obra o sus modificaciones.
+
+5. **Contacto para Licencia Comercial:**
+   Si deseas obtener una licencia para uso comercial, puedes ponerte en contacto con el autor en: [tu-email-aquí]
+
+Fecha de Adición de Términos Adicionales: [fecha]
