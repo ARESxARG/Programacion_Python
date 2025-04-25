@@ -1,12 +1,12 @@
 #Operadores Lógicos. And, Or e Not
 
-#AND
+#AND o &
 resultado = True & True #True
 resultado2 = True & False #False
 resultado3 = False & True #False
 resultado4 = False & False #False
 
-#OR
+#OR o |
 resultado5 = True | True #True
 resultado6 = True | False #True
 resultado7 = False | True #True
