@@ -67,18 +67,72 @@ else:
     print ("Error de programación.")"""
 
 #Ejercicio 2.9
-descuento18 = "A1"
-descuento18a60 = "A2"
-descuento60 = "A3"
-descuento5 = "A344B" or "B578F"
-compra_total = float(input("Ingrese el valor total de su compra: "))
-edad = int(input("Ingrese su edad: "))
-descuento = str(input("Ingrese un código de descuento: "))
-if edad < 18 and descuento == descuento18:
-    print ("Tenes un descuento del %10 por ser menor de edad")
-elif 60 < edad > 18 and descuento == descuento18a60:
-    print ("Tenes un descuento del %5 por ser mayor de edad")
-elif edad > 60 and descuento == descuento60:
-    print ("Tenes un descuento del %15 por ser menor de edad")
-elif descuento == descuento5:
-    print ("Tenes un descuento exclusivo")
+"""total_compra = float(input("Ingrese la cantidad total de su compra: "))
+edad = int(input("Ingrese su edad para aplicar un descuento: "))
+if edad < 18:
+    print ("El monto total de la compra con un descuento del %10 es :" +str(total_compra-(total_compra*0.10)))
+elif edad >= 18 and edad <= 60:
+    print ("El monto total de la compra con un descuento del %5 es :" +str(total_compra-(total_compra*0.05)))
+elif edad > 60:
+    print ("El monto total de la compra con un descuento del %15 es :" +str(total_compra-(total_compra*0.15)))
+else:
+    codigo_descuento = input("Ingrese un codigo para aplicar un descuento: ")
+    descuentos = str ("A344B","B578F")
+if codigo_descuento==descuentos and codigo_descuento==descuentos:
+    print ("El monto total de la compra con el codigo de descuento del %5 es :" +str(total_compra-(total_compra*0.5)))
+else:
+    print ("No existe ningun código de descuento con esos caracteres")"""
+
+#Ejercicio 2.10
+"""plato_A = "opción del plato principal A: Milanesas con papas - $8000"
+plato_B = "opción del plato principal B: Pollo al horno con papas - $7000"
+plato_C = "opción del plato principal C: Ravioles con salsa blanca - $9000"
+total = 0
+print ("Bienvenido al sistema. A continuación seleccione su plato principal:\nOpción A: Milanesas con papas - $8000\nOpción B: Pollo al horno con papas - $7000\nOpción C: Ravioles con salsa blanca - $9000")
+plato_seleccionado = input("\nIngrese la opción del platillo segun su letra correspondiente: ")
+valor_plato_A = int(8000)
+valor_plato_B = int(7000)
+valor_plato_C = int(9000)
+if plato_seleccionado == "A" or plato_seleccionado == "a":
+    print ("Seleccionaste la",plato_A)
+    total = total + valor_plato_A
+elif plato_seleccionado == "B" or plato_seleccionado == "b":
+    print ("Seleccionaste la",plato_B)
+    total = total + valor_plato_B
+elif plato_seleccionado == "C" or plato_seleccionado == "c":
+    print ("Seleccionaste la",plato_C)
+    total = total + valor_plato_C
+else:
+    print ("No existe el plato solicitado en la carta.")
+#Menu Bebidas
+bebida_A = "opción A: Agua Saborizada - $1500"
+bebida_B = "opción B: Gaseosa - $2000"
+valor_bebida_A = int(1500)
+valor_bebida_B = int(2000)
+print ("\nSeleccione la bebida que va a consumir: \nOpción A: Agua Saborizada - $1500\nOpción B: Gaseosa - $2000")
+bebida_seleccionada = input("Ingrese la opción de la bebida segun su letra correspondiente: ")
+if bebida_seleccionada == "A" or bebida_seleccionada == "a":
+    print ("Seleccionaste la",bebida_A)
+    total = total + valor_bebida_A
+elif bebida_seleccionada == "B" or bebida_seleccionada == "b":
+    print ("Seleccionaste la",bebida_B)
+    total = total + valor_bebida_B
+else:
+    print ("No existe la bebida solicitada en la carta.")
+#Menu Postre
+postre_A = "Opción A: Flan con crema - $2500"
+postre_B = "Opción B: Helado - $3000"
+valor_postre_A = int(2500)
+valor_postre_B = int(3000)
+print ("\nSeleccione el postre que va a consumir: \nOpción A: Flan con crema - $2500\nOpción B: Helado - $3000")
+postre_seleccionado = input("Ingrese la opción del postre segun su letra correspondiente: ")
+if postre_seleccionado == "A" or postre_seleccionado == "a":
+    print ("Seleccionaste la",postre_A)
+    total = total + valor_postre_A
+elif postre_seleccionado == "B" or postre_seleccionado == "b":
+    print ("Seleccionaste la",postre_B)
+    total = total + valor_postre_B
+else:
+    print ("No existe el postre solicitado en la carta.")
+#MONTO TOTAL
+print("\nTOTAL A PAGAR: $",total)"""
