@@ -70,6 +70,35 @@ else: #Validacioes de numero
         print ("El número es múltiplo de 2.")
     if -9 <= valor_entero <= 9:
         print ("El numero posee un solo dígito.")"""
+#Otra Manera de resolverlo
+"""if valor_entero != 0:
+    if valor_entero > 0:
+        print ("El número es positivo.")
+    else:
+        print ("El número es negativo")
+    if (valor_entero % 2) == 0:
+        print ("El número es múltiplo de 2.")
+    if -9 <= valor_entero <= 9:
+        print ("El numero posee un solo dígito.")
+else:
+    print ("////////// ERROR 404 NOT FOUND //////////")"""
+#En caso de que ingresen un string.
+"""valor_string = input("Ingresar un numero aleatorio: ")
+if valor_string >= "0" and valor_string <= "9":
+    valor_entero = int(valor_string)
+    if valor_entero != 0:
+        if valor_entero > 0:
+            print ("El número es positivo.")
+        else:
+            print ("El número es negativo")
+        if (valor_entero % 2) == 0:
+            print ("El número es múltiplo de 2.")
+        if -9 <= valor_entero <= 9:
+            print ("El numero posee un solo dígito.")
+    else:
+        print ("////////// ERROR 404 NOT FOUND //////////")
+else:
+    print ("El valor ingresado es incorrecto.")"""
 
 #Ejercicio 2.9
 """compra_total = float(input("Ingrese la cantidad total de su compra: "))
@@ -88,7 +117,7 @@ else:
         print ("Total de la compra con un descuento del %15 para jubilados es :" +str(compra_total-(compra_total*0.15)))"""
 
 #Ejercicio 2.10
-"""plato_A = "opción del plato principal A: Milanesas con papas - $8000"
+plato_A = "opción del plato principal A: Milanesas con papas - $8000"
 plato_B = "opción del plato principal B: Pollo al horno con papas - $7000"
 plato_C = "opción del plato principal C: Ravioles con salsa blanca - $9000"
 total = 0
@@ -139,4 +168,4 @@ elif postre_seleccionado == "B" or postre_seleccionado == "b":
 else:
     print ("No existe el postre solicitado en la carta.")
 #MONTO TOTAL
-print("\nTOTAL A PAGAR: $",total)"""
+print("\nTOTAL A PAGAR: $",total)
