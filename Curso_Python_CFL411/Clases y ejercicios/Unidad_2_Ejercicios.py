@@ -105,8 +105,8 @@ else:
 edad = int(input("Ingrese su edad para verificar si tiene un descuento: "))
 descuento1 = "A344B"
 descuento2 = "B578F"
-codigo_descuento = str(input("¿Tenes un codigo de descuento?: "))
-if codigo_descuento == descuento1 or descuento2:
+codigo_descuento = (input("¿Tenes un codigo de descuento?: "))
+if codigo_descuento == descuento1 or codigo_descuento == descuento2:
     print ("El monto total de la compra con el codigo de descuento del %5 es :" +str(compra_total-(compra_total*0.5)))
 else:
     if edad < 18:
@@ -114,7 +114,7 @@ else:
     elif edad >= 18 and edad < 60:
         print ("Total de la compra con un descuento del %5 para mayores de edad es :" +str(compra_total-(compra_total*0.05)))
     elif edad >= 60:
-        print ("Total de la compra con un descuento del %15 para jubilados es :" +str(compra_total-(compra_total*0.15)))"""
+        print ("Total de la compra con un descuento del %15 para jubilados gaga es :" +str(compra_total-(compra_total*0.15)))"""
 
 #Ejercicio 2.10
 plato_A = "opción del plato principal A: Milanesas con papas - $8000"
