@@ -1,17 +1,21 @@
-"""Unidad 2 - Tipo de dato Booleano - Operadores relacionales - Estructuras 
-Condicionales- Operadores Lógicos"""
+#Unidad 2 - Tipo de dato Booleano - Operadores relacionales - Estructuras 
+#Condicionales- Operadores Lógicos
 
-"""#Ejercicio 2.1
-activo = True
+#Ejercicio 2.1
+"""activo = True
 inactivo = False
 print (activo)
-print (inactivo)
+print (inactivo)"""
 
 #Ejercicio 2.2
-altura_maxima = int(200)
+"""altura_maxima = int(200)
 nueva_altura = int(input("Ingrese una altura: "))
-print ("La nueva altura ingresada supera la altura máxima(200)) nueva_altura > altura_maxima
-print ("La nueva altura ingresada no supera la altura máxima(200)) nueva_altura < altura_maxima"""
+resultado = nueva_altura > altura_maxima #Declarar una variable para demostrar un valor booleano utilizando los operadores de comparación
+print ("¿La nueva altura ingresada supera la altura máxima(200)?" ,resultado)"""
+#Otra Manera de realizar el ejercicio
+"""altura_maxima = int(200)
+nueva_altura = int(input("Ingrese una altura en numeros enteros: "))
+print ("¿La nueva altura ingresada supera la altura máxima(200)?" ,nueva_altura > altura_maxima)"""
 
 #Ejercicio 2.3
 """valor = int(5)
@@ -22,11 +26,11 @@ print ("El valor ingresado es mayor a 5" ,str(valor_aleatorio > valor))"""
 
 #Ejercicio 2.4
 """altura_maxima = int(200)
-nueva_altura = int(input("Ingrese una altura: "))
+nueva_altura = int(input("Ingrese una altura con numeros enteros: "))
 if nueva_altura > 200:
-    print ("La altura es mayor a la altura máxima")
+    print ("La nueva altura es mayor o igual(200) a la altura máxima")
 else:
-    print ("La altura es menor(200) a la altura máxima")"""
+    print ("La nueva altura es menor a la altura máxima")"""
 
 #Ejercicio 2.5
 """valor = int(5)
@@ -48,40 +52,40 @@ else:
 
 #Ejercicio 2.7
 """letra = input("Ingrese una letra para verificar si es vocal o consonante: ")
-if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u":
+if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u" and letra == str:
     print ("La letra es una vocal")
 else:
-    print ("La letra es una consonante.")"""
+    print ("La letra es una consonante o no es un caracter alfabético.")"""
 
 #Ejercicio 2.8
-"""valor_entero = int(input("Ingresar un numero aleatorio:"))
-if valor_entero > 0:
-    print ("El numero es positivo")
-elif valor_entero < -0:
-    print ("El numero es negativo")
-elif valor_entero <= 9:
-    print ("El numero posee un solo dígito.")
-elif (valor_entero % 2) == 0:
-    print ("El numero es múltiplo de 2")
-else:
-    print ("Error de programación.")"""
+"""valor_entero = int(input("Ingresar un número aleatorio:"))
+if valor_entero == 0:
+    print ("////////// ERROR 404 NOT FOUND //////////") #OTRA FORMA DE ANIDAR IF/ELSE SEGUN CONSIGNA.
+else: #Validacioes de numero
+    if valor_entero >= 1:
+        print ("El número es positivo.")
+    if valor_entero <= -1:
+        print ("El número es negativo")
+    if (valor_entero % 2) == 0:
+        print ("El número es múltiplo de 2.")
+    if -9 <= valor_entero <= 9:
+        print ("El numero posee un solo dígito.")"""
 
 #Ejercicio 2.9
-"""total_compra = float(input("Ingrese la cantidad total de su compra: "))
-edad = int(input("Ingrese su edad para aplicar un descuento: "))
-if edad < 18:
-    print ("El monto total de la compra con un descuento del %10 es :" +str(total_compra-(total_compra*0.10)))
-elif edad >= 18 and edad <= 60:
-    print ("El monto total de la compra con un descuento del %5 es :" +str(total_compra-(total_compra*0.05)))
-elif edad > 60:
-    print ("El monto total de la compra con un descuento del %15 es :" +str(total_compra-(total_compra*0.15)))
+"""compra_total = float(input("Ingrese la cantidad total de su compra: "))
+edad = int(input("Ingrese su edad para verificar si tiene un descuento: "))
+descuento1 = "A344B"
+descuento2 = "B578F"
+codigo_descuento = str(input("¿Tenes un codigo de descuento?: "))
+if codigo_descuento == descuento1 or descuento2:
+    print ("El monto total de la compra con el codigo de descuento del %5 es :" +str(compra_total-(compra_total*0.5)))
 else:
-    codigo_descuento = input("Ingrese un codigo para aplicar un descuento: ")
-    descuentos = str ("A344B","B578F")
-if codigo_descuento==descuentos and codigo_descuento==descuentos:
-    print ("El monto total de la compra con el codigo de descuento del %5 es :" +str(total_compra-(total_compra*0.5)))
-else:
-    print ("No existe ningun código de descuento con esos caracteres")"""
+    if edad < 18:
+        print ("Total de la compra con un descuento del %10 para menores es :" +str(compra_total-(compra_total*0.10)))
+    elif edad >= 18 and edad < 60:
+        print ("Total de la compra con un descuento del %5 para mayores de edad es :" +str(compra_total-(compra_total*0.05)))
+    elif edad >= 60:
+        print ("Total de la compra con un descuento del %15 para jubilados es :" +str(compra_total-(compra_total*0.15)))"""
 
 #Ejercicio 2.10
 """plato_A = "opción del plato principal A: Milanesas con papas - $8000"

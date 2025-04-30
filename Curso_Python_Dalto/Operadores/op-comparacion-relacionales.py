@@ -1,4 +1,4 @@
-#Comparadores. Sirven para comparar valores y devolver un booleano.
+#Comparadores relacionales. Sirven para comparar valores y devolver un booleano.
 
 #¿De que manera escribo los comparadores?
 # "<=" o ">=" : Se escribe primero con "<" o "Shift+ >" y seguido del "=".
