@@ -1,0 +1,1 @@
+#Para realizar bucles dentro de un codigo utilizamos la funcion "while".

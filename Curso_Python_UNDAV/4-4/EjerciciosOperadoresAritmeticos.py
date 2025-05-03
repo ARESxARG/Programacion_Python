@@ -1,5 +1,3 @@
-"""#Inicio de Algorítmo
-
 #Ejercicio1SumaNormal
 print ("Suma de dos valores.")
 numero1 = int(input("Ingrese un numero: "))
@@ -36,7 +34,7 @@ kilometros = metros/1000
 centimetros = metros*100
 print ("Conversión en Km: " +str(kilometros))
 print ("Conversión en Cm: " +str(centimetros))
-"""
+
 #Ejercicio7
 producto1 = float(input("Ingrese el valor del primer producto: "))
 producto2 = float(input("Ingresa el valor del segundo producto: "))
@@ -45,4 +43,3 @@ total = producto1 + producto2 + producto3
 IVA = total*1.21
 print ("El valor total con IVA del 21% es del : " +str(IVA))
 print ("El valor total sin IVA es de : " +str(total))
-#Fin de Algorítmo
