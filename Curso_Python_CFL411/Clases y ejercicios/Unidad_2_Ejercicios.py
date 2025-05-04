@@ -117,7 +117,7 @@ else:
         print ("Total de la compra con un descuento del %15 para jubilados gaga es :" +str(compra_total-(compra_total*0.15)))"""
 
 #Ejercicio 2.10
-plato_A = "opción del plato principal A: Milanesas con papas - $8000"
+"""plato_A = "opción del plato principal A: Milanesas con papas - $8000"
 plato_B = "opción del plato principal B: Pollo al horno con papas - $7000"
 plato_C = "opción del plato principal C: Ravioles con salsa blanca - $9000"
 total = 0
@@ -168,4 +168,4 @@ elif postre_seleccionado == "B" or postre_seleccionado == "b":
 else:
     print ("No existe el postre solicitado en la carta.")
 #MONTO TOTAL
-print("\nTOTAL A PAGAR: $",total)
+print("\nTOTAL A PAGAR: $",total)"""
