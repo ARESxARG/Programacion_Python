@@ -24,9 +24,9 @@ else:
 #Hecho en clase por el profe
 contador_notas = 1 #Aclaramos el valor "1" para poder llegar al valor estimado.
 contador_desaprobados = 0 #Aclaramos la variable para acumularla
-acumulador_notas = 0 #Aclaramos la variable para poder acumularla
+acumulador_notas = 0
 while contador_notas <= 5:
-    nota_estudiante = float(input("Ingrese la nota: "))
+    nota_estudiante = int(input("Ingrese la nota: "))
     acumulador_notas += nota_estudiante #Con esto sumamos las cantidades que se ingresen de las notas
     if nota_estudiante >= 7:
         print ("El alumno esta aprobado.")

@@ -1,4 +1,4 @@
-#Ejercicio Obligatorio IF-ELIF-ELSE
+#Ejercicio Obligatorio IF-ELIF-ELSE // ALUMNO - ALEJO ORTIZ
 año = int(input("Ingrese un año para determinar si es bisiesto o no: "))
 if (año % 4) != 0:
     print ("El año",año,"no es bisiesto, ya que no es divisible por 4.")

@@ -1,14 +1,13 @@
-"""
 #Ejercicio 1
-numeros = int(input("Ingresa números aleatorios y para finalizar ingresa el valor 0: "))
+"""numeros = int(input("Ingresa números aleatorios y para finalizar ingresa el valor 0: "))
 while numeros != 0: # "Mientras" = while. Mientras que el numero sea diferente a 0 se va a ejecutar infinitas veces. 
     print ("Ingresaste el numero",numeros)
     numeros = int(input("Ingrese otro numero o 0 para salir: "))
 print ("Fin del programa.") #Con este print final, indexado al while, finalizara el programa.
 """
 
-"""#Ejercicio 2
-numero = int(input("Ingresa un numero postivo para continuar: "))
+#Ejercicio 2
+"""numero = int(input("Ingresa un numero postivo para continuar: "))
 while numero >= 0: 
     if numero >= 1:
         print ("Ingresaste un numero positivo:",numero)
@@ -59,8 +58,11 @@ while numero != 0:
 print ("Programa finalizado.""\nCantidad de numeros pares ingresados:",conteo_pares,"\nCantidad de numeros impares ingresados:",conteo_impares)"""
 
 #Ejercicio 6
-"""while
-print"""
+"""numero = 0
+while numero != 100:
+    numero = numero + 1
+    print (numero)
+print ("Finalizo el programa.")"""
 
 #Ejercicio 7
 """letra = input("Ingresa una letra del abecedario: ")
@@ -71,6 +73,51 @@ while letra != letra2:
 print ("Ingresaste dos letras iguales:",letra,"=",letra2)"""
 
 #Ejercicio 8
-numeros = int(input("Ingrese numeros aleatorios: "))
+"""acumulador_maximo = 0
+acumulador_minimo = 0
+numeros = int(input("Ingrese una serie de números positivos para calcular el promedio máximo y mínimo: "))
 while numeros != 0:
-    if numeros >
+    if numeros > acumulador_maximo:
+        acumulador_maximo = numeros
+    elif numeros < acumulador_minimo:
+        acumulador_minimo = numeros
+    numeros = int(input("Ingrese una serie de números positivos para calcular el promedio máximo y mínimo: "))
+else:
+    print ("Finalizo el programa, ingresaste el valor 0.")
+print ("El promedio minimo es:",acumulador_minimo)
+print ("El promedio máximo es:",acumulador_maximo)"""
+
+#Ejercicio 9
+"""contador_multiples_de_3 = 0
+contador_los_que_no_son = 0
+numeros = int(input("Ingrese una serie de números para determinar si son multiples de 3 o no. Para finalizar ingrese el valor 0))
+while numeros != 0:
+    numeros = int(input("Ingrese una serie de números para determinar si son multiples de 3 o no. Para finalizar ingrese el valor 0))
+    if (numeros % 3) == 0 :
+        contador_multiples_de_3 += 1
+    else:
+        contador_los_que_no_son += 1
+else:
+    print ("Finalizo el programa, ingresaste el valor 0.")
+print ("La cantidad de numeros multiples de 3 es:",contador_multiples_de_3)
+print ("La cantidad de numeros que NO son multiples es:",contador_los_que_no_son)"""
+
+#Ejercicio 10
+"""contador_numeros_positivos = 0
+numeros = int(input("Ingrese una serie de números positivos: "))
+while numeros >= 0:
+    numeros = int(input("Ingrese una serie de números positivos: "))
+    contador_numeros_positivos += 1
+else:
+    print ("Finalizo el programa, ingresaste un valor negativo.")
+print ("Ingresaste una cantidad total de",contador_numeros_positivos,"numeros.")"""
+
+#Ejercicio 11
+"""contador_palabras_ingresadas = 0
+palabras = input("Ingrese palabras aleatorias: ")
+while palabras != "fin" and palabras != "FIN":
+    palabras = input("Ingrese palabras aleatorias: ")
+    contador_palabras_ingresadas += 1
+else:
+    print ("\nFinalizo el programa, ingresaste la palabra clave.")
+print ("Ingresaste una cantidad total de",contador_palabras_ingresadas,"palabras.")"""
