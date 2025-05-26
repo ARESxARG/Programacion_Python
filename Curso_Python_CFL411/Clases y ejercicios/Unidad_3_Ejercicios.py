@@ -1,4 +1,3 @@
-#Ejercicios 12 de Mayo.
 #Ejercicio 3.1 Escribir un programa que muestre los numeros del 1 al 10.
 """contador = 1
 while contador <= 5:

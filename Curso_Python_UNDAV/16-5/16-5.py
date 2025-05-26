@@ -45,8 +45,58 @@ suma = numero_2+1
 for iterador in range(numero_1,suma):
     print (iterador)"""
 
-
 #Ejercicio 8
-"""for iterador in range (1,11):
-    numeros = int(input("Ingresa numeros aleatorios para destacar cual es el menor y el mayor: "))
-    print (acumulador)"""
+"""mayor = None
+menor = None
+for iterador in range (1,11):
+    numeros = int(input("Ingresa numeros de forma aleatoria: "))
+    if mayor == None and menor == None:
+        menor = numeros
+    else:
+        mayor = numeros
+print ("El numero menor es:",menor)
+print ("El numero mayor es:",mayor)"""
+
+#Ejercicio 9
+"""palabra = input("Ingrese una palabra: ")
+contador=0
+for letra in palabra:
+    if letra == "a" or letra=="e" or letra=="i" or letra=="o" or letra=="u":
+        contador +=1
+print(contador)"""
+
+#Ejercicio 10
+"""palabra = input("Ingrese una palabra: ")
+contador=0
+for letra in palabra:
+    if letra != "a" and letra != "e" and letra != "i" and letra != "o" and letra != "u":
+        contador +=1
+print(contador)"""
+
+#Ejercicio 11
+"""acumulador = 0
+for iterador in range (1,16):
+    numeros = int(input("Ingresa numeros aleatorios: "))
+    acumulador += numeros    
+    resultado = acumulador / 15
+print (resultado)"""
+
+#Ejercicio 12
+"""
+
+
+
+"""
+
+#Ejercicio 13
+"""frase_ingresada = input("Ingrese una frase aleatoria: ")
+for letra in reversed (frase_ingresada):
+    print (letra)"""
+
+frase_ingresada = input("Ingrese una frase aleatoria: ")
+palabra = ""
+for letra in reversed (frase_ingresada):
+    palabra += letra
+print (palabra)
+
+#Ejercicio 14
