@@ -1,6 +1,6 @@
 #Ejercicio 3.1 Escribir un programa que muestre los numeros del 1 al 10.
 """contador = 1
-while contador <= 5:
+while contador <= 10:
     print ("El contador vale:",contador)
     contador +=1
 else:
@@ -78,7 +78,7 @@ print (lista_alumnos[4])"""
 
 #3.13  Crear  una  lista que almacene  nombres de estudiantes,  cambiar el  nombre  del último estudiante por “Pedro” y mostrarlo por pantalla.
 """lista_alumnos = ["Ludmila","Ariel","Marina","Tobias","Alejo"]
-lista_alumnos[4] = "Roberto"
+lista_alumnos[4] = "Pedro"
 print (lista_alumnos[4])"""
 
 #3.14 Crear una lista que almacene 5 números enteros y mostrar por pantalla solo los números pares
@@ -87,15 +87,19 @@ for iterador in lista_numeros:
     if (iterador % 2) == 0:
         print ("El numero",iterador,"es par.")"""
 
-#3.15 Crear una lista que almacene 5 números enteros y mostrar por pantalla solo el mayor 
-lista_numeros = [9, 12, 3, 1, 21]
-print (lista_numeros[4])
+#3.15 Crear una lista que almacene 5 números enteros y mostrar por pantalla solo el mayor
+"""lista_numeros = [9, 12, 3, 1, 21]
+mayor = lista_numeros[0]
+for numeros in lista_numeros:
+    if numeros > mayor:
+        mayor = numeros
+
+print ("El numero mas alto de la lista es:",mayor)"""
 
 #3.16 Escribir un programa que modifique recorra una lista y si el numero es negativo debe modificarlo por el mismo valor, pero positivo.
 """lista_numeros = [-2,4,5,-13,11]
 print ("Lista de numeros antes de la modificación:",lista_numeros)
-for iterador in lista_numeros:
-    if iterador < 0:
-        lista_numeros[0] = 2
-        lista_numeros[3] = 13
-print ("Lista de numeros despues de la modificación:",lista_numeros)"""
+for numeros in range(len(lista_numeros)):
+    if lista_numeros[numeros] < 0:
+        lista_numeros[numeros] *= -1
+print ("\nLista de numeros despues de la modificación:",lista_numeros)"""
