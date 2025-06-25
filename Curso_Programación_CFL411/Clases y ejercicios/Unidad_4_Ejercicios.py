@@ -62,7 +62,7 @@ print (datos)"""
 
 """
 <<<<<<<<<<>>>>>>>>>> FUNCIONES <<<<<<<<<<>>>>>>>>>>
-"""
+""" 
 #4.8  Definir  una  funciona  llamada  saludar  que  reciba  un  nombre  como  parámetro  y muestre por pantalla un saludo. Ejemplo “Hola, Cristian”. 
 """def saludar(nombre):
     print("Hola,", nombre)
@@ -72,7 +72,9 @@ saludar("River")"""
 """def sumar(a, b):
     return a + b
 resultado = sumar(10, 5)
-print("La suma es:",resultado)"""
+print("La suma es:",resultado)
+#Otra manera de hacerlo:
+#print(sumar(10,5))"""
 
 #4.10 Definir una función llamada retornar_mayor que reciba que reciba dos números como parámetros y retorne el número mayor. 
 """def retornar_mayor(a, b):
@@ -84,15 +86,57 @@ mayor = retornar_mayor(21, 9)
 print("El mayor es:", mayor)"""
 
 #4.11 Definir una función que reciba dos cadenas de texto como parámetros y retorne la cadena con más caracteres. 
+"""def cantidad_caracteres(cadena1, cadena2):
+    if len(cadena1) > len(cadena2):
+        return cadena1
+    else:
+        return cadena2
+palabra_mayor = cantidad_caracteres("Vocabulario", "Teclado")
+print (palabra_mayor)"""
 
 #4.12 Definir una función que reciba una palabra y una letra como parametros y retorne cuantas veces se repite la letra dentro de la palabra.
+"""def contador_letras(palabra,letra):
+    contador = 0
+    for letras in palabra:
+        if letras == letra:
+            contador +=1
+    return contador
+print(contador_letras("Vocabulario","o"))"""
 
 #4.13 Definir una función que reciba una lista de números como parámetro y retorne el mayor de los números de la lista. 
+"""def retornar_mayor(lista_numeros):
+    mayor = lista_numeros[0]
+    for numero in lista_numeros:
+        if numero > mayor:
+            mayor = numero
+    return mayor
+resultado = retornar_mayor([9,12,3,21,1])
+print (resultado)"""
 
 #4.14 Definir una función que reciba una lista de números como parámetro y retorne una nueva lista sin números repetidos. 
+"""def comparador_lista(lista_numeros):
+    nueva_lista = []
+    valor_repetido = lista_numeros[0]
+    for numeros in lista_numeros:
+        if numeros == valor_repetido:
+            nueva_lista.append(numeros)
+    return nueva_lista
+resultado = comparador_lista([4,4,4,9,23,9,12])
+print (resultado)"""
 
 #4.15 Se necesita almacenar la información asociada a 3 estudiantes en una lista de diccionarios. Escribir un programa que: 
 # • Solicite el ingreso de nombre, apellido y edad de un estudiante. 
 # • Almacene esa información en un diccionario. 
 # • Luego  de  cargar  un  estudiante  el  diccionario  debe  agregarse  a  una  lista  de estudiantes. 
 # • Cuando finalice la carga de los 3 estudiantes debe mostrarse por pantalla la lista de estudiantes con la información cargada.
+def carga_datos():
+    lista = ({"Nombre","Apellido","Edad"})
+    for carga in range (3):
+        nombre = input("Ingrese el nombre del estudiante: ")
+        apellido = input("Ingrese el apellido del estudiante: ")
+        edad = input("Ingrese la edad del estudiante: ")
+        lista["Nombre"] = nombre
+        lista["Apellido"] = apellido
+        lista["Edad"] = edad
+    return lista
+print (carga_datos())
